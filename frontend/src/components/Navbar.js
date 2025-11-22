@@ -1,9 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useTheme } from '../context/ThemeContext';
 import './Navbar.css';
 import logo from '../logo.png';
 
 const Navbar = () => {
+  const { isDarkMode, toggleTheme } = useTheme();
+
   return (
     <nav className="navbar">
       <div className="navbar-container">
@@ -12,6 +15,20 @@ const Navbar = () => {
           <span className="navbar-logo-text">AI Health Chain</span>
         </Link>
         <ul className="navbar-menu">
+          <li className="navbar-item">
+            <button
+              className="theme-toggle"
+              onClick={toggleTheme}
+              aria-label="Toggle dark mode"
+              title={isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
+            >
+              <div className="toggle-track">
+                <div className={`toggle-thumb ${isDarkMode ? 'dark' : 'light'}`}>
+                  {isDarkMode ? '🌙' : '☀️'}
+                </div>
+              </div>
+            </button>
+          </li>
           <li className="navbar-item">
             <a
               href="https://www.aihealthchains.com/"

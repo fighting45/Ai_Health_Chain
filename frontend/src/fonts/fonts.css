@@ -1,0 +1,17 @@
+/* Pacifico - Handwriting Style Font */
+@font-face {
+  font-family: 'Pacifico';
+  src: url('./Pacifico-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Runtime Font by brandsemut */
+@font-face {
+  font-family: 'Runtime';
+  src: url('./Runtime-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

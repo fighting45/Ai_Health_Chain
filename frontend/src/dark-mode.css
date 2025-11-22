@@ -1,0 +1,435 @@
+/* Dark Mode Global Styles */
+
+/* Root variables for smooth transitions */
+:root {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Mode Base */
+.dark-mode {
+  background: #0f0f1e;
+  color: #e0e0e0;
+}
+
+.dark-mode .App {
+  background: #0f0f1e;
+  color: #e0e0e0;
+}
+
+/* Dashboard Dark Mode */
+.dark-mode .dashboard-container {
+  background: linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 100%);
+}
+
+.dark-mode .dashboard-header {
+  background: #1a1a2e;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.dark-mode .dashboard-title {
+  color: #e0e0e0;
+}
+
+.dark-mode .dashboard-subtitle {
+  color: #a0a0a0;
+}
+
+.dark-mode .current-date {
+  background: linear-gradient(135deg, #2d4a5a 0%, #3a5f7f 100%);
+  color: #e0e0e0;
+}
+
+/* Stat Cards Dark Mode */
+.dark-mode .stat-card {
+  background: #1e1e2e;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.dark-mode .stat-card:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.7);
+}
+
+.dark-mode .stat-info h3 {
+  color: #a0a0a0;
+}
+
+.dark-mode .stat-number {
+  color: #e0e0e0;
+}
+
+.dark-mode .stat-label {
+  color: #808080;
+}
+
+.dark-mode .stat-link {
+  color: #8b9aff;
+}
+
+.dark-mode .stat-link:hover {
+  color: #a8b5ff;
+}
+
+/* Quick Actions Dark Mode */
+.dark-mode .section-title {
+  color: #e0e0e0;
+}
+
+.dark-mode .action-card {
+  background: #1e1e2e;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.dark-mode .action-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.7);
+}
+
+.dark-mode .action-icon {
+  background: linear-gradient(135deg, #2a2a3e 0%, #1e1e2e 100%);
+}
+
+.dark-mode .action-text h3 {
+  color: #e0e0e0;
+}
+
+.dark-mode .action-text p {
+  color: #a0a0a0;
+}
+
+/* Dashboard Widgets Dark Mode */
+.dark-mode .dashboard-widget {
+  background: #1e1e2e;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.dark-mode .dashboard-widget:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.7);
+}
+
+.dark-mode .widget-header {
+  border-bottom-color: #2a2a3e;
+  background: linear-gradient(135deg, #1a1a2e 0%, #1e1e2e 100%);
+}
+
+.dark-mode .widget-title {
+  color: #e0e0e0;
+}
+
+.dark-mode .widget-link {
+  color: #8b9aff;
+}
+
+.dark-mode .widget-link:hover {
+  color: #a8b5ff;
+}
+
+/* List Items Dark Mode */
+.dark-mode .list-item {
+  background: #252535;
+}
+
+.dark-mode .list-item:hover {
+  background: #2a2a3e;
+}
+
+.dark-mode .item-name {
+  color: #e0e0e0;
+}
+
+.dark-mode .item-meta {
+  color: #a0a0a0;
+}
+
+.dark-mode .item-badge {
+  background: linear-gradient(135deg, #3a4a5a 0%, #4a5a6f 100%);
+  color: #e0e0e0;
+}
+
+.dark-mode .specialty-badge {
+  background: linear-gradient(135deg, #5a4a3a 0%, #6f5a4a 100%);
+  color: #e0e0e0;
+}
+
+.dark-mode .appointment-status {
+  background: linear-gradient(135deg, #3a5a5a 0%, #4a6f6f 100%);
+  color: #e0e0e0;
+}
+
+.dark-mode .empty-state {
+  color: #606060;
+}
+
+/* Overview Widget Dark Mode */
+.dark-mode .overview-item {
+  background: #252535;
+}
+
+.dark-mode .overview-label {
+  color: #a0a0a0;
+}
+
+.dark-mode .overview-value {
+  color: #e0e0e0;
+}
+
+.dark-mode .status-active {
+  color: #5fcc7f;
+}
+
+/* Progress Bars Dark Mode */
+.dark-mode .progress-header {
+  color: #b0b0b0;
+}
+
+.dark-mode .progress-count {
+  color: #e0e0e0;
+}
+
+.dark-mode .progress-bar {
+  background: #2a2a3e;
+}
+
+/* Page Container Dark Mode */
+.dark-mode .page-container {
+  background: linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 100%);
+}
+
+.dark-mode .page-header h1 {
+  color: #e0e0e0;
+}
+
+.dark-mode .page-header p {
+  color: #a0a0a0;
+}
+
+.dark-mode .loading,
+.dark-mode .error,
+.dark-mode .no-data {
+  color: #a0a0a0;
+}
+
+.dark-mode .error {
+  color: #ff6b6b;
+}
+
+/* Data Cards Dark Mode */
+.dark-mode .data-card {
+  background: #1e1e2e;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.dark-mode .data-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+}
+
+.dark-mode .card-header {
+  border-bottom-color: #2a2a3e;
+}
+
+.dark-mode .card-header h3 {
+  color: #e0e0e0;
+}
+
+.dark-mode .card-body {
+  color: #b0b0b0;
+}
+
+.dark-mode .card-body strong {
+  color: #e0e0e0;
+}
+
+.dark-mode .badge {
+  background: linear-gradient(135deg, #4a4a6a 0%, #5a5a7a 100%);
+}
+
+.dark-mode .badge.specialty {
+  background: linear-gradient(135deg, #7a4a6a 0%, #8a5a7a 100%);
+}
+
+/* Buttons Dark Mode */
+.dark-mode .btn-primary {
+  background: linear-gradient(135deg, #4a4a8a 0%, #5a5a9a 100%);
+  box-shadow: 0 2px 6px rgba(74, 74, 138, 0.5);
+}
+
+.dark-mode .btn-primary:hover {
+  box-shadow: 0 4px 12px rgba(74, 74, 138, 0.7);
+}
+
+.dark-mode .btn-secondary {
+  background: #2a2a3e;
+  color: #e0e0e0;
+}
+
+.dark-mode .btn-secondary:hover {
+  background: #353550;
+}
+
+.dark-mode .btn-view {
+  background: linear-gradient(135deg, #2d4a3a 0%, #3a5f4a 100%);
+  color: #e0e0e0;
+}
+
+.dark-mode .btn-edit {
+  background: linear-gradient(135deg, #5a4a3a 0%, #6f5a4a 100%);
+  color: #e0e0e0;
+}
+
+.dark-mode .btn-delete {
+  background: linear-gradient(135deg, #5a3a3a 0%, #6f4a4a 100%);
+  color: #e0e0e0;
+}
+
+/* Modal Dark Mode */
+.dark-mode .modal-overlay {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.dark-mode .modal-content {
+  background: #1e1e2e;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+}
+
+.dark-mode .modal-header {
+  background: linear-gradient(135deg, #2a2a4a 0%, #3a3a5a 100%);
+  border-bottom-color: #2a2a3e;
+}
+
+.dark-mode .modal-header h2 {
+  color: #e0e0e0;
+}
+
+.dark-mode .modal-close {
+  color: #e0e0e0;
+}
+
+.dark-mode .modal-close:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.dark-mode .modal-actions {
+  background: #1a1a2e;
+  border-top-color: #2a2a3e;
+}
+
+/* Form Elements Dark Mode */
+.dark-mode .form-group label {
+  color: #e0e0e0;
+}
+
+.dark-mode .form-group input,
+.dark-mode .form-group select,
+.dark-mode .form-group textarea {
+  background: #252535;
+  border-color: #3a3a4a;
+  color: #e0e0e0;
+}
+
+.dark-mode .form-group input::placeholder,
+.dark-mode .form-group textarea::placeholder {
+  color: #808080;
+}
+
+.dark-mode .form-group input:focus,
+.dark-mode .form-group select:focus,
+.dark-mode .form-group textarea:focus {
+  border-color: #5a5a9a;
+  box-shadow: 0 0 0 3px rgba(90, 90, 154, 0.2);
+}
+
+/* Detail View Dark Mode */
+.dark-mode .detail-row {
+  border-bottom-color: #2a2a3e;
+}
+
+.dark-mode .detail-row strong {
+  color: #e0e0e0;
+}
+
+.dark-mode .detail-text {
+  color: #b0b0b0;
+  background: #252535;
+}
+
+/* Home Page Dark Mode */
+.dark-mode .home-container {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+}
+
+.dark-mode .hero-section {
+  background: transparent;
+}
+
+.dark-mode .hero-title {
+  background: linear-gradient(135deg, #818cf8 0%, #c084fc 50%, #818cf8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.dark-mode .hero-description {
+  color: #cbd5e1;
+}
+
+.dark-mode .launch-button {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.5);
+}
+
+.dark-mode .launch-button:hover {
+  box-shadow: 0 6px 25px rgba(99, 102, 241, 0.7);
+  transform: translateY(-2px);
+}
+
+.dark-mode .features-section {
+  background: transparent;
+}
+
+.dark-mode .feature-card {
+  background: rgba(30, 41, 59, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(148, 163, 184, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .feature-card:hover {
+  background: rgba(30, 41, 59, 0.95);
+  box-shadow: 0 8px 20px rgba(99, 102, 241, 0.3);
+  border-color: rgba(99, 102, 241, 0.3);
+}
+
+.dark-mode .feature-card h3 {
+  color: #f1f5f9;
+}
+
+.dark-mode .feature-card p {
+  color: #cbd5e1;
+}
+
+/* Loading Dashboard Dark Mode */
+.dark-mode .loading-dashboard {
+  color: #a0a0a0;
+}
+
+/* Smooth Transitions */
+.dark-mode * {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Scrollbar Dark Mode */
+.dark-mode ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.dark-mode ::-webkit-scrollbar-track {
+  background: #1a1a2e;
+}
+
+.dark-mode ::-webkit-scrollbar-thumb {
+  background: #3a3a4a;
+  border-radius: 5px;
+}
+
+.dark-mode ::-webkit-scrollbar-thumb:hover {
+  background: #4a4a5a;
+}
