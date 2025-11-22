@@ -22,10 +22,23 @@
   text-decoration: none;
   letter-spacing: 0.5px;
   transition: opacity 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .navbar-logo:hover {
   opacity: 0.8;
+}
+
+.navbar-logo-image {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+}
+
+.navbar-logo-text {
+  display: inline-block;
 }
 
 .navbar-menu {

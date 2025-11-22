@@ -1,13 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import logo from '../logo.png';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          AI Health Chain
+          <img src={logo} alt="AI Health Chain" className="navbar-logo-image" />
+          <span className="navbar-logo-text">AI Health Chain</span>
         </Link>
         <ul className="navbar-menu">
           <li className="navbar-item">

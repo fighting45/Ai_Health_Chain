@@ -87,11 +87,18 @@
 .card-body p {
   margin: 0.8rem 0;
   line-height: 1.6;
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  max-height: 200px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .card-body strong {
   color: #2d3748;
   font-weight: 600;
+  word-break: normal;
 }
 
 @media (max-width: 768px) {
