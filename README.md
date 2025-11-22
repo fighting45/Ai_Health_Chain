@@ -15,7 +15,7 @@ The goal is to allow candidates to focus on building frontend functionality whil
 
 ### Profile Screen
 
-![Profile Screen](./Assets/image.png)
+![Profile Screen](./Assets/image1.png)
 
 ## ⚙️ Tech Stack
 
