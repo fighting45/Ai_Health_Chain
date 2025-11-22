@@ -7,11 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
-  "keywords": ["healthcare", "express", "api", "interview-demo", "mvp"],
+  "keywords": [
+    "healthcare",
+    "express",
+    "api",
+    "interview-demo",
+    "mvp"
+  ],
   "author": "Max Doppelt",
   "license": "UNLICENSED",
   "type": "commonjs",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.1.0"
   },
   "devDependencies": {
