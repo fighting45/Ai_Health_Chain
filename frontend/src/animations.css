@@ -1,0 +1,337 @@
+/* Page Load Animations - Slide In Effects */
+
+/* Keyframe Animations */
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Dashboard Header Animation */
+.dashboard-header {
+  animation: slideInFromTop 0.6s ease-out;
+}
+
+/* Stats Grid - Staggered Animation */
+.stats-grid {
+  display: grid;
+}
+
+.stat-card {
+  opacity: 0;
+  animation: slideInFromBottom 0.6s ease-out forwards;
+}
+
+.stat-card:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.stat-card:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.stat-card:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.stat-card:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+/* Quick Actions Section */
+.quick-actions-section {
+  animation: slideInFromLeft 0.6s ease-out;
+  animation-delay: 0.5s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.action-card {
+  opacity: 0;
+  animation: fadeInScale 0.5s ease-out forwards;
+}
+
+.action-card:nth-child(1) {
+  animation-delay: 0.6s;
+}
+
+.action-card:nth-child(2) {
+  animation-delay: 0.7s;
+}
+
+.action-card:nth-child(3) {
+  animation-delay: 0.8s;
+}
+
+/* Dashboard Widgets - Staggered */
+.dashboard-widget {
+  opacity: 0;
+  animation: slideInFromBottom 0.6s ease-out forwards;
+}
+
+.dashboard-widget:nth-child(1) {
+  animation-delay: 0.9s;
+}
+
+.dashboard-widget:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.dashboard-widget:nth-child(3) {
+  animation-delay: 1.1s;
+}
+
+.dashboard-widget:nth-child(4) {
+  animation-delay: 1.2s;
+}
+
+/* Page Header Animation */
+.page-header {
+  animation: slideInFromTop 0.5s ease-out;
+}
+
+/* Data Grid Cards - Staggered */
+.data-grid {
+  display: grid;
+}
+
+.data-card {
+  opacity: 0;
+  animation: slideInFromBottom 0.5s ease-out forwards;
+}
+
+.data-card:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.data-card:nth-child(2) {
+  animation-delay: 0.15s;
+}
+.data-card:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.data-card:nth-child(4) {
+  animation-delay: 0.25s;
+}
+.data-card:nth-child(5) {
+  animation-delay: 0.3s;
+}
+.data-card:nth-child(6) {
+  animation-delay: 0.35s;
+}
+.data-card:nth-child(7) {
+  animation-delay: 0.4s;
+}
+.data-card:nth-child(8) {
+  animation-delay: 0.45s;
+}
+.data-card:nth-child(9) {
+  animation-delay: 0.5s;
+}
+.data-card:nth-child(10) {
+  animation-delay: 0.55s;
+}
+.data-card:nth-child(11) {
+  animation-delay: 0.6s;
+}
+.data-card:nth-child(12) {
+  animation-delay: 0.65s;
+}
+
+/* Home Page Animations */
+.hero-section {
+  animation: fadeInScale 0.8s ease-out;
+}
+
+.hero-title {
+  opacity: 0;
+  animation: slideInFromTop 0.6s ease-out forwards;
+  animation-delay: 0.2s;
+}
+
+.hero-description {
+  opacity: 0;
+  animation: slideInFromBottom 0.6s ease-out forwards;
+  animation-delay: 0.4s;
+}
+
+.launch-button {
+  opacity: 0;
+  animation: fadeInScale 0.5s ease-out forwards;
+  animation-delay: 0.6s;
+}
+
+.features-section {
+  opacity: 0;
+  animation: slideInFromBottom 0.6s ease-out forwards;
+  animation-delay: 0.8s;
+}
+
+.feature-card {
+  opacity: 0;
+  animation: slideInFromBottom 0.5s ease-out forwards;
+}
+
+.feature-card:nth-child(1) {
+  animation-delay: 1s;
+}
+
+.feature-card:nth-child(2) {
+  animation-delay: 1.15s;
+}
+
+.feature-card:nth-child(3) {
+  animation-delay: 1.3s;
+}
+
+/* Modal Animations */
+.modal-overlay {
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modal-content {
+  animation: modalSlideIn 0.4s ease-out;
+}
+
+@keyframes modalSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* List Items Animation (for dashboard widgets) */
+.list-item {
+  opacity: 0;
+  animation: slideInFromLeft 0.4s ease-out forwards;
+}
+
+.list-item:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.list-item:nth-child(2) {
+  animation-delay: 0.15s;
+}
+.list-item:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.list-item:nth-child(4) {
+  animation-delay: 0.25s;
+}
+.list-item:nth-child(5) {
+  animation-delay: 0.3s;
+}
+
+/* Progress Bars Animation */
+.progress-item {
+  opacity: 0;
+  animation: slideInFromRight 0.5s ease-out forwards;
+}
+
+.progress-item:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.progress-item:nth-child(2) {
+  animation-delay: 0.3s;
+}
+.progress-item:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.progress-fill {
+  animation: progressFill 1s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes progressFill {
+  from {
+    width: 0 !important;
+  }
+}
+
+/* Navbar Animation */
+.navbar {
+  animation: slideInFromTop 0.5s ease-out;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Dark mode animations - maintain same timing */
+.dark-mode .stat-card,
+.dark-mode .data-card,
+.dark-mode .dashboard-widget,
+.dark-mode .action-card,
+.dark-mode .feature-card,
+.dark-mode .list-item {
+  /* Animations already defined above will work in dark mode */
+}

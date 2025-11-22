@@ -11,7 +11,7 @@ The goal is to allow candidates to focus on building frontend functionality whil
 
 ### Dashboard View
 
-![Dashboard View](./Assets/home.png)
+![Dashboard View](./Assets/home1.png)
 
 ### Profile Screen
 
