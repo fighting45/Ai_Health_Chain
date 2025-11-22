@@ -7,6 +7,16 @@ This backend simulates a **healthcare management system MVP**.
 There is **no authentication**, and all data is stored **in-memory** (no database required).
 The goal is to allow candidates to focus on building frontend functionality while interacting with a realistic REST API.
 
+## 🖼️ UI Preview
+
+### Dashboard View
+
+![Dashboard View](./Screenshots/home.png)
+
+### Profile Screen
+
+![Profile Screen](./Screenshots/image.png)
+
 ## ⚙️ Tech Stack
 
 - **Node.js 18+**
